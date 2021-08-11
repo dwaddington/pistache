@@ -82,3 +82,5 @@ endif ()
 set_target_properties(pistache_static PROPERTIES
     OUTPUT_NAME ${Pistache_OUTPUT_NAME}
 )
+
+install(TARGETS pistache_shared RUNTIME DESTINATION lib)
